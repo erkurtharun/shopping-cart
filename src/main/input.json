@@ -1,0 +1,98 @@
+[
+  {
+    "command": "addItem",
+    "payload": {
+      "itemId": 1,
+      "categoryId": 1001,
+      "sellerId": 2001,
+      "price": 150,
+      "quantity": 9
+    }
+  },
+  {
+    "command": "addItem",
+    "payload": {
+      "itemId": 2,
+      "categoryId": 3004,
+      "sellerId": 2002,
+      "price": 1000,
+      "quantity": 8
+    }
+  },
+  {
+    "command": "addItem",
+    "payload": {
+      "itemId": 3,
+      "categoryId": 7889,
+      "sellerId": 2003,
+      "price": 50.00,
+      "quantity": 5
+    }
+  },
+  {
+    "command": "addItem",
+    "payload": {
+      "itemId": 4,
+      "categoryId": 1001,
+      "sellerId": 2001,
+      "price": 300,
+      "quantity": 6
+    }
+  },
+  {
+    "command": "addItem",
+    "payload": {
+      "itemId": 5,
+      "categoryId": 3004,
+      "sellerId": 2002,
+      "price": 500,
+      "quantity": 5
+    }
+  },
+  {
+    "command":"removeItem",
+    "payload":{"itemId":3}
+  },
+  {
+    "command": "addItem",
+    "payload": {
+      "itemId": 5,
+      "categoryId": 3004,
+      "sellerId": 2002,
+      "price": 500,
+      "quantity": 5
+    }
+  },
+  {
+    "command":"removeItem",
+    "payload":{"itemId":4}
+  },
+  {
+    "command": "addItem",
+    "payload": {
+      "itemId": 5,
+      "categoryId": 3004,
+      "sellerId": 2002,
+      "price": 500,
+      "quantity": 6
+    }
+  },
+  {
+    "command":"addVasItemToItem",
+    "payload": {
+      "itemId": 2,
+      "vasItemId":1,
+      "vasCategoryId": 3242,
+      "vasSellerId":5003,
+      "price":50.0,
+      "quantity":1}
+  },
+  {
+    "command":"removeItem",
+    "payload":{
+      "itemId":1}
+  },
+  {
+    "command":"displayCart"
+  }
+]

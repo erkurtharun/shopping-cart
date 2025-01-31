@@ -1,0 +1,78 @@
+[
+    {
+        "result": true,
+        "message": "Item added successfully"
+    },
+    {
+        "result": true,
+        "message": "Item added successfully"
+    },
+    {
+        "result": true,
+        "message": "Item added successfully"
+    },
+    {
+        "result": true,
+        "message": "Item added successfully"
+    },
+    {
+        "result": false,
+        "message": "Item validation failed: Adding 5 items exceeds the total allowed limit. Current total: 28, attempted to add: 5, allowed limit: 30."
+    },
+    {
+        "result": true,
+        "message": "Item removed successfully"
+    },
+    {
+        "result": true,
+        "message": "Item added successfully"
+    },
+    {
+        "result": true,
+        "message": "Item removed successfully"
+    },
+    {
+        "result": false,
+        "message": "Item validation failed: Adding 6 of item ID 5 exceeds the max quantity per item. Current quantity: 5, attempted to add: 6, allowed limit: 10."
+    },
+    {
+        "result": true,
+        "message": "VAS item added successfully"
+    },
+    {
+        "result": true,
+        "message": "Item removed successfully"
+    },
+    {
+        "result": true,
+        "message": {
+            "appliedPromotionId": 9909,
+            "totalAmount": 9500,
+            "totalDiscount": 1050,
+            "items": [
+                {
+                    "itemId": 2,
+                    "sellerId": 2002,
+                    "quantity": 8,
+                    "price": 1000,
+                    "vasItems": [{
+                        "quantity": 1,
+                        "price": 50,
+                        "vasItemId": 1,
+                        "vasCategoryId": 3242,
+                        "vasSellerId": 5003
+                    }],
+                    "categoryId": 3004
+                },
+                {
+                    "itemId": 5,
+                    "sellerId": 2002,
+                    "quantity": 5,
+                    "price": 500,
+                    "vasItems": [],
+                    "categoryId": 3004
+                }
+            ]
+        }
+    }
+]
